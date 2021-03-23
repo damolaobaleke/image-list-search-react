@@ -1,0 +1,11 @@
+.search-input {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    border: 1px solid gray;
+}
+
+.search-icon {
+    position: absolute;
+    top: 28px;
+    right: 30px;
+}
