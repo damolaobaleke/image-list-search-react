@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from 'axios'
 import SearchInput from './SearchInputCompnent'
+import ImageCard from './card/cardComponent'
 
 class App extends React.Component{
 
@@ -30,11 +31,13 @@ class App extends React.Component{
                 </div>
 
                 <div className="row mt-4 justify-content-center">
-                    <div className="col-md-8">
+                    {/* <div className="col-md-8">
                         <div>
                             We have {this.state.images.length} images of {this.state.entryName}
                         </div>
-                    </div>
+                    </div> */}
+
+                    <ImageCard images={this.state.images}/>
                 </div>
             </div>
         )
