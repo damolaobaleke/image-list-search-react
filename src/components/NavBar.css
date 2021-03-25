@@ -1,0 +1,14 @@
+.navbar .nav-item .nav-link {
+    font-family: 'Raleway';
+    font-weight: 900;
+    color: white!important;
+}
+
+.navbar .nav-item .nav-link:hover {
+    transform: translateY(-10px);
+}
+
+a:hover {
+    transition: 1s;
+    color: red;
+}
