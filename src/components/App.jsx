@@ -20,7 +20,7 @@ const App = () =>{
                 {/* Footer */}
                 {/* To prevent react-router treating other pages as a subset of the home page, explicitly define /home or use an exact path */}
             
-                <Route path='/profile/:userid' component={UserCard}/>
+                <Route path='/profile/:userid' component={UserCard}/> 
             </div>
         </BrowserRouter>
     )
